@@ -1,0 +1,30 @@
+{
+    "name": "ada",
+    "displayName": "ADA",
+    "description": "ADA language and code snippets",
+    "version": "0.0.1",
+    "publisher": "AlessandroDelSole",
+    "engines": {
+        "vscode": "^0.10.10"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ada",
+            "aliases": ["Ada", "ada"],
+            "extensions": [".adb",".ads"],
+            "configuration": "./ada.configuration.json"
+        }],
+        "grammars": [{
+            "language": "ada",
+            "scopeName": "source.ada",
+            "path": "./syntaxes/ada.tmLanguage"
+        }],
+        "snippets": [{
+                "language": "ada",
+                "path": "./snippets/snippets.json"
+        }]
+    }
+}

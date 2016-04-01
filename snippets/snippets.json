@@ -1,0 +1,14 @@
+{
+	"flp": {
+		"prefix": "flp",
+		"body": "for {1:i} in 1 .. 10 loop\r\n  Ada.Text_IO.Put ({1:i});\r\nend loop;\r\n",
+		"description": "",
+		"scope": ""
+	},
+	"llp": {
+		"prefix": "llp",
+		"body": "\r\nloop\r\n  {1:a} := {1:a} + 1;\r\n  exit when {1:a} = 10;\r\nend loop;\r\n",
+		"description": "",
+		"scope": ""
+	}
+}
