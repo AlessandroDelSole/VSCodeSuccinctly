@@ -8,6 +8,8 @@
 	<array>
 		<string>adb</string>
 		<string>ads</string>
+		<string>ada</string>
+		<string>gpr</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~A</string>

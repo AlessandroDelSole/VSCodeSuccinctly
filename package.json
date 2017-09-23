@@ -2,7 +2,7 @@
     "name": "ada",
     "displayName": "ADA",
     "description": "ADA language and code snippets",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "AlessandroDelSole",
     "engines": {
         "vscode": "^0.10.10"
@@ -14,7 +14,7 @@
         "languages": [{
             "id": "ada",
             "aliases": ["Ada", "ada"],
-            "extensions": [".adb",".ads"],
+            "extensions": [".adb",".ads", ".ada", ".gpr"],
             "configuration": "./ada.configuration.json"
         }],
         "grammars": [{
